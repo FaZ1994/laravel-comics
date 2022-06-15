@@ -1,0 +1,31 @@
+//
+
+header {
+    height: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 120px;
+        list-style: none;
+        li {
+            list-style: none;
+            margin: 0 2rem;
+            text-transform: uppercase;
+            color: $text-header;
+            
+            a {
+                list-style: none;
+
+                color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+            }
+        }
+
+    }
+}
